@@ -1,0 +1,144 @@
+.contact-page {
+    width: 980px;
+    height: 800px;
+    margin: 0 auto;
+
+    .contact-title {
+        width: 229px;
+        height: 50px;
+        margin-top: 62px;
+
+        h2 {
+            font-family: PTSerifR;
+            font-size: 25px;
+            border-bottom: 2px solid #000;
+            letter-spacing: 3px;
+        }
+    }
+
+    .contact-contain {
+        width: 980px;
+        height: 500px;
+        margin-top: 66px;
+        display: flex;
+        justify-content: space-between;
+
+        .contact-left {
+
+            .text-in {
+                width: 529px;
+                height: 60px;
+                border: none;
+                margin-bottom: 22px;
+
+                font-family: SourceSans;
+                font-size: 16px;
+                padding-left: 20px;
+            }
+
+            .message-box {
+                width: 529px;
+                height: 199px;
+                border: none;
+                margin-bottom: 22px;
+                font-family: SourceSans;
+                font-size: 16px;
+                padding-left: 20px;
+                padding-bottom: 135px;
+            }
+
+            .submitBtn {
+                width: 167px;
+                height: 60px;
+                background-color: #EE4367;
+
+                font-family: SourceSans;
+                font-size: 16px;
+                color: #fff;
+                text-align: center;
+                padding-top: 18px;
+            }
+
+        }
+
+        .contact-right {
+
+            img {
+                width: 400px;
+                height: 442px;
+                object-fit: cover;
+            }
+        }
+
+
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .contact-page {
+        height: 1200px;
+
+        .contact-title {
+            margin-left: 20px;
+        }
+
+        .contact-contain {
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .contact-left {
+                text-align: center;
+
+                .submitBtn {
+                    margin-left: 250px;
+                }
+            }
+
+            .contact-right {
+                margin-top: 50px;
+                
+            }
+        }
+
+
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .contact-page {
+        width: 420px;
+        height: 1200px;
+
+        .contact-title {
+            
+        }
+
+        .contact-contain {
+            width: 420px;
+            text-align: center;
+
+            .contact-left {
+                width: 420px;
+
+                .text-in {
+                    width: 420px;
+                }
+                
+                .message-box {
+                    width: 420px;
+                }
+
+                .submitBtn {
+                    margin-left: 0px;
+                }
+            }
+
+            .contact-right {
+                
+                
+            }
+        }
+
+
+    }
+}

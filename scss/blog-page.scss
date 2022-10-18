@@ -1,0 +1,126 @@
+.blog-page {
+    widows: 100%;
+    min-height: 200px;
+    margin: 0 auto;
+    margin-bottom: 86px;
+
+    .blogTitle {
+        width: 980px;
+        height: 35px;
+        margin: 0 auto;
+        margin-top: 62px;
+        
+
+        h1 {
+            width: 229px;
+            border-bottom: 2px solid #000;
+            font-family: SourceSans;
+            font-size: 25px;
+        }
+    }
+
+    .blog-container {
+        width: 980px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 31px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .blog-posts {
+            width: 460px;
+            height: 257px;
+            display: flex;
+            justify-content: space-between;
+
+            .date-mon {
+                width: 60px;
+                height: 60px;
+                background-color: #EE4367;
+
+                h1 {
+                    font-family: SourceSans;
+                    font-size: 22px;
+                    color: #fff;
+                    text-align: center;
+                    margin-top: 5px;
+                }
+
+                h2 {
+                    font-family: SourceSans;
+                    font-size: 12px;
+                    color: #fff;
+                    text-align: center;
+                    margin-top: -15px;
+                }
+            }
+
+            .blog-inner {
+                width: 380px;
+                height: 257px;
+
+                img {
+                    width: 380px;
+                    height: 140px;
+                    object-fit: cover;
+            }
+
+            h5 {
+                width: 380px;
+                font-family: SourceSans;
+                font-size: 15px;
+            }
+
+            p {
+                font-family: SourceSans;
+                font-size: 13px;
+                color: #EE4367;
+            }
+        }
+    }
+
+}
+
+}
+
+@media only screen and (max-width: 980px){
+    .blog-page {
+        width: 600px;
+
+        .blog-container {
+            width: 600px;
+            padding-left: 40px;
+
+            .blog-posts {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .blog-page {
+        width: 400px;
+
+        .blog-container {
+            width: 400px;
+            margin-left: -20px;
+
+            .blog-posts {
+                width: 400px;
+                
+
+                .blog-inner {
+                    width: 330px;
+
+                    img {
+                        width: 330px;
+                    }
+                }
+
+
+            }
+        }
+    }
+}

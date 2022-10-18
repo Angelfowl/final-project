@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,p {
+    margin-bottom: 16px;
+}
+
+.darkNav {
+    border-bottom: 2px solid #000;
+}
+
+.lightNav {
+    border-bottom: 2px solid #fff;
+}
+
+@font-face {
+    font-family: SourceSans;
+    src: url(../css/fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: PTSerifR;
+    src: url(../css/fonts/PTSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: PTSerifB;
+    src: url(../css/fonts/PTSerif-Bold.ttf);
+}
+
+@font-face {
+    font-family: PTSerifBI;
+    src: url(../css/fonts/PTSerif-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: PTSerifI;
+    src: url(../css/fonts/PTSerif-Italic.ttf);
+}

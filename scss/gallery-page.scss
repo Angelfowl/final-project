@@ -1,0 +1,116 @@
+.gallery-page {
+    width: 980px;
+    min-height: 200px;
+    margin: 0 auto;
+
+    .gallery-title {
+        width: 229px;
+        height: 40px;
+        border-bottom: 2px solid #000;
+        margin-top: 62px;
+
+        h1 {
+            font-family: SourceSans;
+            font-size: 25px;
+            color: #000;
+        }
+    }
+
+    .gallery-container {
+        width: 980px;
+        height: 513px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .galleryPic1 {
+            width: 489px;
+            height: 187px;
+            object-fit: cover;
+        }
+
+        .galleryPic2 {
+            width: 187px;
+            height: 187px;
+            object-fit: cover;
+        }
+
+        .galleryPic3 {
+            width: 265px;
+            height: 187px;
+            object-fit: cover;
+        }
+
+        .galleryPic4 {
+            width: 603px;
+            height: 306px;
+            object-fit: cover;
+        }
+
+        .galleryPic5 {
+            width: 355px;
+            height: 306px;
+            object-fit: cover;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 980px){
+    .gallery-page {
+        margin-left: 100px;
+
+        .gallery-container {
+            width: 600px;
+            justify-content: center;
+            margin-bottom: 375px;
+            
+
+            img {
+                padding: 20px;
+            }
+
+            .galleryPic1 {
+                width: 287px;
+                height: 287px;
+            }
+
+            .galleryPic2 {
+                width: 287px;
+                height: 287px;
+            }
+
+            .galleryPic3 {
+                width: 287px;
+                height: 287px;
+            }
+
+            .galleryPic4 {
+                width: 287px;
+                height: 287px;
+            }
+
+            .galleryPic5 {
+                width: 287px;
+                height: 287px;
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 680px){
+    .gallery-page {
+        margin-left: 20px;
+
+        .gallery-container {
+            width: 420px;
+            margin-bottom: 950px;
+            
+        }
+    }
+
+}

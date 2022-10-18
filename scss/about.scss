@@ -1,0 +1,121 @@
+.about-page {
+    width: 100%;
+    min-height: 200px;
+    margin: 0 auto;
+    padding-top: 95px;
+
+    .hero-img {
+        width: 980px;
+        height: 380px;
+        margin: 0 auto;
+        position: relative;
+
+        img {
+            width: 980px;
+            height: 380px;
+            position: absolute;
+            object-fit: cover;
+            }
+
+            
+        .overlay {
+            width: 980px;
+            height: 380px;
+            background-color: #FFD140;
+            opacity: 80%;
+
+        }
+    }
+
+    .about-title {
+        width: 980px;
+        height: 45px;
+        margin: 0 auto;
+        margin-top: -20px;
+
+        h2 {
+            width: 229px;
+            height: 45px;
+            border-bottom: 2px solid #000;
+            font-family: PTSerifR;
+            font-size: 25px;
+            z-index: 100%;
+            position: absolute;
+        }
+    }
+
+    .about-paragraph {
+        width: 980px;
+        height: 100px;
+        margin: 0 auto;
+        margin-bottom: 96px;
+
+        p {
+            font-family: SourceSans;
+            font-size: 16px;
+            font-style: italic;
+            margin-top: 37px;
+            
+        }
+    }
+
+}
+
+@media only screen and (max-width: 980px){
+   .about-page {
+
+        .hero-img {
+            width: 600px;
+            margin: 0 auto;
+
+        .overlay {
+            width: 600px;
+        }
+        
+        img {
+            width: 600px;
+            object-fit: cover;
+        }
+    }
+
+    .about-title {
+        margin-left: 170px;
+        
+    }
+
+    .about-paragraph {
+        width: 600px;
+        
+    }
+}
+}
+
+@media only screen and (max-width: 670px){
+    .about-page {
+ 
+         .hero-img {
+             width: 420px;
+             margin: 0 auto;
+ 
+         .overlay {
+             width: 420px;
+         }
+         
+         img {
+             width: 420px;
+             object-fit: cover;
+         }
+     }
+
+     .about-title {
+        margin-left: 100px;
+        
+    }
+
+    .about-paragraph {
+        width: 420px;
+        margin-bottom: 150px;
+        
+    }
+ }
+ }

@@ -1,0 +1,137 @@
+footer {
+    width: 100%;
+    height: 455px;
+    background-color: #EE4367;
+
+    .footer-container {
+        width: 696px;
+        height: 455px;
+        margin: 0 auto;
+
+        .logo-footer {
+            width: 100px;
+            // background-color: aquamarine;
+            margin: 0 auto;
+            padding-top: 36px;
+        }
+
+        .address {
+            width: 250px;
+            height: 150px;
+            // background-color: cadetblue;
+            margin: 0 auto;
+            padding-top: 50px;
+
+            p {
+                font-family: SourceSans;
+                font-size: 16px;
+                color: #fff;
+                text-align: center;
+                margin-top: -12px;
+
+            }
+
+        }
+
+        .email-entry {
+            width: 696px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            input {
+                width: 529px;
+                height: 60px;
+                background-color: #F56B88;
+                border: none;
+
+                font-family: SourceSans;
+                font-size: 16px;
+                padding-left: 20px;
+                color: #fff;
+            }
+
+            .subscribe {
+                width: 167px;
+                height: 60px;
+                background-color:#fff;
+                text-align: center;
+                padding-top: 16px;
+
+                a {
+                    font-family: PTSerifR;
+                    font-size: 20px;
+                    color: #EE4367;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                }
+            }
+
+        }
+
+        .socials {
+            width: 156px;
+            height: 32px;
+            // background-color: blueviolet;
+            margin: 0 auto;
+            padding-top: 30px;
+            display: flex;
+            justify-content: space-between;
+
+            img {
+                width: 33px;
+                height: 33px;
+            }
+
+        }
+
+        .copyright {
+            text-align: center;
+            margin-top: 75px;
+
+            p {
+                font-family: SourceSans;
+                font-size: 12px;
+                color: #fff;
+                opacity: 50%;
+            }
+
+        }
+    }
+}
+
+@media only screen and (max-width: 725px) {
+    footer {
+        height: 500px;
+        margin: 0 auto;
+
+        .footer-container {
+            width: 420px;
+
+        .email-entry {
+            width: 420px;
+            height: 120px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+
+            input { 
+                width: 300px;
+                height: 60px;
+
+
+                .email-area {
+                    width: 300px;
+                    height: 60px;
+                }
+            }
+
+            .subscribe {
+                
+                
+            }
+        }
+    }
+
+}
+}

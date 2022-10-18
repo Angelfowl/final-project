@@ -1,0 +1,308 @@
+.home-page {
+    max-width: 100%;
+    min-height: 200px;
+    margin: 0 auto;
+
+    .hero {
+        width: 1280px;
+        height: 500px;
+        margin: 0 auto;
+        position: relative;
+
+        img {
+            width: 1280px;
+            height: 500px;
+            position: absolute;
+            }
+            
+        .overlay {
+            width: 1280px;
+            height: 500px;
+            background-color: #FFD140;
+            opacity: 80%;
+        }
+
+        .callout {
+            width: 450px;
+            position: relative;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: -350px;
+            
+            
+            h1 {
+                font-family: PTSerifR;
+                font-size: 40px;
+                color: #fff;
+            }
+
+            h3 {
+                font-family: PTSerifI;
+                font-size: 20px;
+                color: #EE4367;
+            }
+
+            .paragraph {
+                font-family: SourceSans;
+                font-size: 16px;
+                color: #fff;
+                font-style: italic;
+                padding-top: 45px;
+            }
+
+            .read-more {
+                width: 122px;
+                height: 40px;
+                background-color: #EE4367;
+                margin-top: 45px;
+                padding-top: 10px;
+                margin-left: 150px;
+
+                font-family: SourceSans;
+                font-size: 15px;
+                color: #fff;
+            }
+        }
+    }
+
+    .owner-info {
+        max-width: 100%;
+        height: 300px;
+        // background-color: aqua;
+        padding-top: 77px;
+        display: flex;
+        justify-content: center;
+
+        .owner-paragraph {
+            width: 789px;
+            height: 300px;
+            position: absolute;
+
+            p {
+                font-family: SourceSans;
+                font-size: 16px;
+                color: #FFD140;
+            }
+        }
+
+        .owner-signature {
+            width: 142px;
+            height: 50px;
+            margin-top: 100px;
+            margin-left: -650px;
+            // background-color: aqua;
+
+            h6 {
+                font-family: PTSerifR;
+                font-size: 15px;
+                color: #EE4367;
+            }
+
+            p {
+                font-family: SoureSans;
+                font-size: 10px;
+                color: #A8A8A8;
+                margin-top: -14px;
+            }
+        }
+
+    }
+
+    .upcoming-events {
+        width: 1280px;
+        height: 340px;
+        margin: 0 auto;
+        background-color: #540D6E;
+        padding-top: 45px;
+        padding-left: 40px;
+
+        .upcoming-title {
+            width: 392px;
+            height: 50px;
+            border-bottom: 2px solid #fff;
+            
+            h3 {
+                font-family: PTSerifR;
+                font-size: 25px;
+                color: #fff;
+                letter-spacing: 5px;  
+            }
+        }
+
+        .home-blog-contain {
+            width: 1198px;
+            height: 125px;
+            margin-top: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .event-container {
+                width: 220px;
+                height: 120px;
+                // background-color: aquamarine;
+                display: flex;
+
+                .home-date {
+                    width: 60px;
+                    height: 60px;
+                    background-color: #EE4367;
+                    text-align: center;
+
+                    h2 {
+                        font-family: PTSerifR;
+                        font-size: 22px;
+                        color: #fff;
+                        margin-top: 5px;
+                        
+                    }
+
+                    h3 {
+                        font-family: SourceSans;
+                        font-size: 12px;
+                        color: #fff;
+                        margin-top: -15px;
+
+                    }
+                }
+
+                .home-blog-post {
+                    width: 160px;
+                    height: 120px;
+                    padding-left: 20px;
+
+                    h5 {
+                        font-family: SourceSans;
+                        font-size: 15px;
+                        color: #fff;
+                    }
+
+                    p {
+                        font-family: SourceSans;
+                        font-size: 13px;
+                        color: #EE4367;
+                    }
+                }
+            }
+
+
+        }
+    }
+
+        
+}
+
+
+@media only screen and (max-width: 1260px){
+.home-page {
+    .upcoming-events {
+        width: 950px;
+        height: 450px;
+
+        .home-blog-contain {
+            width: 900px;
+            flex-wrap: wrap;
+        }
+    }
+}
+}
+
+@media only screen and (max-width: 900px){
+    .home-page {
+        
+        .hero {
+            width: 670px;
+            margin: 0 auto;
+
+            .overlay {
+                width: 670px;
+            }
+            
+            img {
+                width: 670px;
+            }
+        }
+
+        .owner-info {
+            width: 630px;
+            margin: 0 auto;
+            padding-top: 77px;
+
+            .owner-paragraph {
+                width: 630px;
+            }
+
+            .owner-signature {
+                margin-left: -490px;
+                margin-top: 120px;
+            }
+        }
+
+        .upcoming-events {
+            width: 650px;
+            height: 550px;
+    
+            .home-blog-contain {
+                width: 600px;
+                flex-wrap: wrap;
+            }
+        }
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 670px) {
+    .home-page {
+        
+        .hero {
+            width: 400px;
+            margin: 0 auto;
+
+            .overlay {
+                width: 400px;
+            }
+            
+            img {
+                width: 400px;
+            }
+        }
+
+        .owner-info {
+            width: 400px;
+            margin: 0 auto;
+            padding-top: 77px;
+            margin-bottom: 76px;
+
+            .owner-paragraph {
+                width: 400px;
+            }
+
+            .owner-signature {
+                margin-left: -250px;
+                margin-top: 175px;
+                
+            }
+        }
+
+        .upcoming-events {
+            width: 460px;
+            height: 775px;
+            margin: 0 auto;
+
+            .upcoming-title {
+                width: 350px;
+            }
+    
+            .home-blog-contain {
+                width: 400px;
+                flex-wrap: wrap;
+                margin-left: 75px;
+            }
+        }
+    }
+
+    
+}

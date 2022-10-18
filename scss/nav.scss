@@ -1,0 +1,104 @@
+nav {
+    width: 980px;
+    height: 93px;
+    // background-color: aqua;
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    margin-left: -490px;
+
+    .nav-container {
+        width: 980px;
+        height: 93px;
+        // border-bottom: 2px solid #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            padding: 10px;
+
+        }
+
+        .links {
+            width: 350px;
+
+            a {
+                font-family: SourceSans;
+                font-size: 16px;
+                color: #fff;
+                text-decoration: none;
+                margin-right: 10px;
+
+            }
+
+            span {
+                font-family: SourceSans;
+                color: #EE4367;
+                font-size: 16px;
+                margin-right: 10px;
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .nav-container {
+            max-width: 600px;
+            padding-left: 20px;
+
+            .logo {
+                width: 150px;
+                // background-color: #EE4367;
+            }
+    
+
+            .links {
+                width: 400px;
+                // background-color: aquamarine;
+
+                a {
+                margin-left: 10px;
+                margin-right: 10px;
+             }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    nav {
+        width: 420px;
+        height: 100px;
+        display: block;
+
+        .nav-container {
+            max-width: 420px;
+            height: 100px;
+            display: block;
+            margin-left: 275px;
+
+            .logo {
+                width: 100%;
+                padding-left: 140px;
+            }
+
+            .links{
+                max-width: 420px;
+                display: flex;
+                justify-content: space-between;
+
+                a   {
+                    margin: 0 auto;
+                }
+            }
+
+            }
+        }
+}
